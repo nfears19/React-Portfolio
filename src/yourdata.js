@@ -78,55 +78,40 @@ export default {
 
   // About Secton 
   aboutParaOne:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+    "Nakiyah Fears is an entry-level full-stack web developer from Cleveland, Ohio. She graduated from Kent State University with a degree in advertising and a minor in writing. Her interests include photography, design, writing, and music. She seeks ways to challenge herself while gaining new skills and knowledge.",
   aboutParaTwo:
-    "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    "Nakiyah comes from a family of artistic and entrepreneurial individuals, so creativity flows through her veins and drives her to work with a purpose.",
   aboutParaThree:
-    "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    "She began her journey as a software developer through the Case Western Reserve University’s Coding Bootcamp. When she’s not spending her downtime writing her book, she’ll find freelance projects, create spec ads, or blog on her website.",
   aboutImage:
-    "https://images.unsplash.com/photo-1519713958759-6254243c4a53?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80",
-
+    <Image source={require('./images/myimage.jpg')} />,
 
   // Skills Section
 
   skills: [
     {
       img: htmlIcon,
-      para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
     },
     {
       img: cssIcon,
-      para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
     },
     {
       img: jsIcon,
-      para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
     },
     {
       img: reactIcon,
-      para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
     },
     {
       img: designIcon,
-      para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
     },
     {
       img: codeIcon,
-      para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
     },
   ],
 
   //   Contact Section
 
-  contactSubHeading: "Let's create your next experience together",
   social: [
-    // Add Or Remove The Link Accordingly
     { img: githubIcon, url: "https://github.com/nfears19" },
     {
       img: linkedinIcon,
