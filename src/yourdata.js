@@ -15,68 +15,58 @@ export default {
     //Line 1 For Header
     "Web Developer",
   ],
-  //   Header Paragraph
-  headerParagraph:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.",
 
-  //Contact Email
+//Contact Email
   contactEmail: "fkiyah@yahoo.com",
 
-
-  // Work Section
+//Work
   projects: [
     {
       title: "Project One",
       para:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", 
       imageSrc:
-        "https://images.unsplash.com/photo-1487837647815-bbc1f30cd0d2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8Njl8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
-      url: "http://chetanverma.com/",
+        <img src= "src\images\03-javascript-homework-demo.png"/>,
     },
     {
-      title: "Project Two",
+      title: "Animal Activity",
       para:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", 
       imageSrc:
-        "https://images.unsplash.com/photo-1605153864431-a2795a1b2f95?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwyNTY3ODl8fGVufDB8fHw%3D&auto=format&fit=crop&w=400&q=60",
-      url: "http://chetanverma.com/",
+        <img src= "src\images\Animal-Activity-Website.png"/>,
     },
     {
-      title: "Project Three", 
+      title: "Bio Website", 
       para:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.",
       imageSrc:
-        "https://images.unsplash.com/photo-1504083898675-c896ecdae86e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjJ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
-      url: "http://chetanverma.com/",
+        <img src= "src\images\Bio-website.png"/>,
     },
     {
-      title: "Project Four", 
+      title: "Code Quiz", 
       para:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.",
       imageSrc:
-        "https://images.unsplash.com/photo-1492171983775-a51717616c0d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NjB8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
-      url: "http://chetanverma.com/",
+        <img src= "src\images\Code-Quiz.png"/>,
     },
     {
-      title: "Project Five", 
+      title: "Relative Portfolio", 
       para:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.",
       imageSrc:
-        "https://images.unsplash.com/photo-1534239143101-1b1c627395c5?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NzZ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
-      url: "http://chetanverma.com/",
+        <img src= "src\images\Portfolio Screenshot.png"/>,
     },
     {
-      title: "Project Six",
+      title: "Adoptable Cats",
       para:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.",
       imageSrc:
-        "https://images.unsplash.com/photo-1517479149777-5f3b1511d5ad?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTAyfHxwYXN0ZWx8ZW58MHx8MHw%3D&auto=format&fit=crop&w=400&q=60",
-      url: "http://chetanverma.com/",
+        <img src= "src\images\screen_shot_2021-01-18_at_12.54.04_pm.png"/>,
     },
 
   ],
 
-  // About Secton 
+  //About 
   aboutParaOne:
     "Nakiyah Fears is an entry-level full-stack web developer from Cleveland, Ohio. She graduated from Kent State University with a degree in advertising and a minor in writing. Her interests include photography, design, writing, and music. She seeks ways to challenge herself while gaining new skills and knowledge.",
   aboutParaTwo:
@@ -86,7 +76,7 @@ export default {
   aboutImage:
     <Image source={require('./images/myimage.jpg')} />,
 
-  // Skills Section
+  //Skills
 
   skills: [
     {
@@ -109,8 +99,7 @@ export default {
     },
   ],
 
-  //   Contact Section
-
+  //Contact
   social: [
     { img: githubIcon, url: "https://github.com/nfears19" },
     {
