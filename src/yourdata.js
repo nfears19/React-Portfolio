@@ -45,7 +45,7 @@ export default {
     {
       title: "Code Quiz", 
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.",
+        "This repository contains my timed coding quiz on JavaScript fundamentals that stores high scores. This project was a homework assignment from the Case Western Reserve Univeristy's Coding Bootcamp. The assignment is to build a timed coding quiz with multiple-choice questions. This app will run in the browser and feature dynamically updated HTML and CSS powered by JavaScript code that I write. It will have a clean, polished, and responsive user interface.",
       imageSrc:
         <img src= "src\images\Code-Quiz.png"/>,
     },
@@ -59,7 +59,7 @@ export default {
     {
       title: "Adoptable Cats",
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.",
+        "Cat lovers can come to our website and search for different types of cats that are available for adoption. They can also input their name and the pet name to discover how compatiable they are with the cat!",
       imageSrc:
         <img src= "src\images\screen_shot_2021-01-18_at_12.54.04_pm.png"/>,
     },
